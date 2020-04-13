@@ -1,24 +1,18 @@
-# README
+# Using Action Text in Rails 6
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## What is Action Text?
+Action Text is a new cool feature in Rails 6.0, which helps to build a rich text editor (WYSIWYG editor) easily in Rails application.
+It includes the Trix editor that handles everything from formatted text to links or embedded images.
+Attachments as images are automatically stored using Active Storage and associated with the included RichText model.
 
-Things you may want to cover:
+## What is Trix Editor?
+Trix is a rich text editor for everyday writing. Compose beautifully formatted text in your web application. 
+Trix is an editor for writing messages, comments, articles, and lists—the simple documents most web apps are made of. It features a sophisticated document model, support for embedded attachments, and outputs terse and consistent HTML.
 
-* Ruby version
+## Using Action Text through Example
+* Create a new Rails 6 application
+* Create a Post model with 2 columns are: title and content
+* Install Action Text
+* Using Action Text to edit the content of Post
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Detail on my blog: https://luanotes.com/blogs/using-action-text-in-rails-6
